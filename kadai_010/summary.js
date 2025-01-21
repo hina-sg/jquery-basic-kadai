@@ -4,7 +4,7 @@ $(function(){
     });
 
     $("#change-text").on("click",function(){
-        $("p").text("Hello!");
+        $("#target").text("Hello!");
     });
 
     $("#fade-out").on("click",function(){
